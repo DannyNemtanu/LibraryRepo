@@ -1,0 +1,24 @@
+.container-fluid{
+    height: 100vh;
+    .image-bg{
+        width: 100%;
+        height: 100vh;
+        background-image: url('../../../assets/login_bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .authetication-form{
+        height: 100vh;
+        width: 100%;
+        form{
+            
+            margin-top:25%;
+            padding: 20px;
+            width: 60%;
+        }
+        #register-btn:hover{
+            color: #017BFF;
+            transition: .3s;
+        }
+    }
+}

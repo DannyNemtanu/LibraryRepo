@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="d-none d-md-block col-md-6 image-bg"></div>
+      <div class="col-md-6 authetication-form">
+        <form class="mx-auto">
+          <h1 class="text-center">LibRepo</h1>
+          <p class="text-center text-muted"><small>Complete the form bellow to gain access to the application !</small></p>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="remember-me">
+            <label class="form-check-label" for="remember-me">Remember Me</label>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            <i class="material-icons p-2">
+              arrow_forward_ios
+            </i>
+          </button>
+          <p class="text-center mb-0 p-2">
+              <small>Already have an account?</small>
+          </p>
+          <a id="register-btn" [routerLink]="['../login']" class="btn btn-default font-weight-bold text-center w-100">
+              LOGIN
+          </a>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+  
