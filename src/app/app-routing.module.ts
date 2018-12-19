@@ -1,3 +1,4 @@
+import { ReaderComponent } from './reader/reader.component';
 import { AdminComponent } from './admin/admin.component';
 import { LoginComponent } from './user/login/login.component';
 import { NgModule } from '@angular/core';
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: 'reader',
+    component: ReaderComponent
   }
 ];
 
