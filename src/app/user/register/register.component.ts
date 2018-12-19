@@ -14,7 +14,7 @@ export class RegisterComponent implements OnInit {
 
   constructor(private router: Router) {}
   ngOnInit() {
-    firebase.initializeApp(environment.firebase);
+    this.router.navigate(['login']);
   }
 
   // login() {
@@ -32,7 +32,6 @@ export class RegisterComponent implements OnInit {
         .then(
           res => {
             resolve(res);
-            this.router.navigate(['login']);
           },
           err => {
             reject(err);
